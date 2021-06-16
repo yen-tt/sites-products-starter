@@ -1,0 +1,14 @@
+{
+    "description": "These are the best shoes ever. Buy them.",
+    "id": "1",
+    "name": "Jordan 1s - Ice Blue",
+    "photoGallery": [
+      {
+        "image": {
+          "url": "http://a.mktgcdn.com/p/fRjnrCJeuewBGHb0GhBn_xJfs9IlYMoeEXjm7uOUsNA/640x480.jpg"
+        }
+      }
+    ],
+    "slug": "shoes",
+    "uid": 15836628
+  }
