@@ -1,0 +1,68 @@
+<div class="carousel relative container mx-auto" style="max-width:1600px;">
+    <div class="carousel-inner relative overflow-hidden w-full"></div>
+
+        {{#each this}}
+            {{#if @first}}
+            <script>console.log("Index: {{this.image.id}}, prev: {{this.image.prev}}, next: {{this.image.next}}, url: {{this.image.url}}");</script>
+                <input class="carousel-open" type="radio" id="carousel-{{this.image.id}}" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                    <div class="carousel-item absolute opacity-0" style="height:50vh;">
+                        <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-right" style="background-image: url({{this.image.url}});">
+
+                            <div class="container mx-auto">
+                                <div class="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
+                                    <p class="text-grey text-6xl my-4">{{this.image.name}}</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                <label for="carousel-{{this.image.prev}}" class="prev control-{{this.image.id}} w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+                <label for="carousel-{{this.image.next}}" class="next control-{{this.image.id}} w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+            {{else}}
+            <script>console.log("Index: {{this.image.id}}, prev: {{this.image.prev}}, next: {{this.image.next}}");</script>
+                <input class="carousel-open" type="radio" id="carousel-{{this.image.id}}" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item absolute opacity-0 bg-cover bg-right" style="height:50vh;">
+                        <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-right" style="background-image: url('{{this.image.url}}');">
+
+                            <div class="container mx-auto">
+                                <div class="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
+                                    <p class="text-grey text-6xl my-4">{{this.image.name}}</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                <label for="carousel-{{this.image.prev}}" class="prev control-{{this.image.id}} w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+                <label for="carousel-{{this.image.next}}" class="next control-{{this.image.id}} w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+            {{/if}}
+        {{/each}}
+
+    <!-- Add additional indicators for each slide-->
+    <ol class="carousel-indicators">
+        <li class="inline-block mr-3">
+            <label for="carousel-0" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-gray-900">•</label>
+        </li>
+        <li class="inline-block mr-3">
+            <label for="carousel-1" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-gray-900">•</label>
+        </li>
+        <li class="inline-block mr-3">
+            <label for="carousel-2" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-gray-900">•</label>
+        </li>
+        <li class="inline-block mr-3">
+            <label for="carousel-3" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-gray-900">•</label>
+        </li>
+        <li class="inline-block mr-3">
+            <label for="carousel-4" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-gray-900">•</label>
+        </li>
+        <li class="inline-block mr-3">
+            <label for="carousel-5" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-gray-900">•</label>
+        </li>
+        <li class="inline-block mr-3">
+            <label for="carousel-6" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-gray-900">•</label>
+        </li>
+        <li class="inline-block mr-3">
+            <label for="carousel-7" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-gray-900">•</label>
+        </li>
+    </ol>   
+
+</div>

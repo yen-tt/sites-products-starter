@@ -23,5 +23,79 @@
 			"linkText": "Personal",
 			"linkUrl": "https://www.dime.com/personal"
 		}
-	]
+	],
+    "photoGallery": [
+		{
+		  "image": {
+			"url": "/images/luc.png",
+			"name": "Luc",
+			"prev": "8",
+			"id": "1",
+			"next": "2"
+		  }
+		},
+		{
+		  "image": {
+			"url": "/images/gideon.jpg",
+			"name": "Gideon",
+			"prev": "1",
+			"id": "2",
+			"next": "3"
+		  }
+		},
+		{
+			"image": {
+			  "url": "/images/travis.jpg",
+			  "name": "Travis",
+			  "prev": "2",
+			  "id": "3",
+			  "next": "4"
+			}
+		},
+		{
+			"image": {
+			  "url": "/images/max.png",
+			  "name": "Max",
+			  "prev": "3",
+			  "id": "4",
+			  "next": "5"		
+			}
+		},
+		{
+			"image": {
+			  "url": "/images/bowman.png",
+			  "name": "Bowman",
+			  "prev": "4",
+			  "id": "5",
+			  "next": "6"
+			}
+		},
+		{
+			"image": {
+			  "url": "/images/breed.jpg",
+			  "name": "BReed",
+			  "prev": "5",
+			  "id": "6",
+			  "next": "7"
+			}
+		},
+		{
+			"image": {
+			  "url": "/images/duval.jpg",
+			  "name": "Duval",
+			  "prev": "6",
+			  "id": "7",
+			  "next": "8"
+			}
+		},
+		{
+			"image": {
+			  "url": "/images/pranjal.jpg",
+			  "name": "Pranjal - Captain Falcon",
+			  "prev": "7",
+			  "id": "8",
+			  "next": "1"
+			}
+		}
+	  ]
 }
