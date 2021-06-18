@@ -1,6 +1,4 @@
 node_modules/
 .artifact-output/
-cli.exe
-main.exe
 public/
 assets/
