@@ -2,3 +2,4 @@ node_modules/
 .artifact-output/
 cli.exe
 public/
+assets/
