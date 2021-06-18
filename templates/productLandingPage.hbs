@@ -1,7 +1,7 @@
 ---
 {
     "stream": {
-        "$id": "sites-landingPages",
+        "$id": "sites-landing-pages",
         "source": "knowledgeGraph",
         "destination": "pages",
       "fields": [
@@ -10,11 +10,7 @@
         "name",
         "slug",
         "c_inventory.name",
-        "c_inventory.id"
-        "c_inventory.richTextDescription",
         "c_inventory.slug",
-        "c_inventory.price",
-        "c_inventory.color",
         "c_inventory.photoGallery"
       ],
       "filter": {
@@ -47,6 +43,12 @@
     <body>
         
     {{>navbar}}
+
+    {{#each c_inventory}}
+      <div>{{name}}</div>
+      {{>photoGallery photoGallery}}
+    {{/each}}
+
 
     </body> 
 
