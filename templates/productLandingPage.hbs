@@ -1,25 +1,25 @@
 ---
 {
     "stream": {
-        "$id": "sites-tops",
+        "$id": "sites-landingPages",
         "source": "knowledgeGraph",
         "destination": "pages",
       "fields": [
         "id",
         "uid",
         "name",
-        "description",
-        "photoGallery",
         "slug",
-        "price",
-        "color"
+        "c_inventory.name",
+        "c_inventory.id"
+        "c_inventory.description",
+        "c_inventory.slug",
+        "c_inventory.price",
+        "c_inventory.color",
+        "c_inventory.photoGallery"
       ],
       "filter": {
         "entityTypes": [
           "products"
-        ],
-        "savedFilterIds": [
-            "410723526"
         ]
       }
     },
@@ -33,8 +33,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tops</title>
-    <meta name="description" content=Browse through our selection of tops.>
+    <title>{{name}}</title>
+    <meta name="description" content=Browse through our selection.>
     {{>head}}
     {{!-- <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> --}}
     <!--Replace with your tailwind.css once created-->
