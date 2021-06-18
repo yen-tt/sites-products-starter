@@ -1,0 +1,22 @@
+{
+    "description": "Part of the collaboration between Loewe and Paula's boutique, this T-shirt calls to mind Ibiza's famed vibrant island lifestyle, from sunrise to sunset. It's cut from waffle-knit cotton.",
+    "id": "top-1",
+    "name": "Paula's Ibiza Printed Waffle-Knit Cotton T-Shirt",
+    "photoGallery": [
+      {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/qN1YZXvG2haTiv6QSeYZV4Zg_5iFZ8p6F5T1w7rQbpw/1365x1820.jpg"
+        }
+      },
+      {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/PZabp73AbVcy2ltboW1ULu7n_zDXNxTUi86Y7DJF9WY/2000x2667.jpg"
+        }
+      } 
+    ],
+    "slug": "top",
+    "uid": 15836628,
+    "Style": "",
+    "color": "wolf grey/sail/photon dust/white",
+    "price": "15,000"
+  }
