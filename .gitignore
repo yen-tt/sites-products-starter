@@ -1,6 +1,5 @@
 node_modules/
 .artifact-output/
-localData/
 public/
 assets/
 main.exe

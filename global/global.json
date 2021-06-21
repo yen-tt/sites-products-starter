@@ -1,9 +1,6 @@
 {
-	"test": "GLOBAL STRING FROM GLOBAL.JSON!!!!!",
 	"name": "Luc's Fashion Warehouse",
-	"businessId": "3434922",
-	"siteId": "20003",
-	"logo": "https://logodix.com/logo/1244398.jpg",
+	"logo": "",
 	"primary_color": "#003a70",
 	"secondary_color": "#B5C428",
     "photoGallery": [
