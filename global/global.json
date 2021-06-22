@@ -1,79 +1,55 @@
 {
+	"test": "GLOBAL STRING FROM GLOBAL.JSON!!!!!",
 	"name": "Luc's Fashion Warehouse",
-	"logo": "",
 	"primary_color": "#003a70",
 	"secondary_color": "#B5C428",
     "photoGallery": [
 		{
 		  "image": {
 			"url": "/images/luc.png",
-			"name": "Luc",
-			"prev": "8",
-			"id": "1",
-			"next": "2"
+			"name": "Luc"
 		  }
 		},
 		{
 		  "image": {
 			"url": "/images/gideon.jpg",
-			"name": "Gideon",
-			"prev": "1",
-			"id": "2",
-			"next": "3"
+			"name": "Gideon"
 		  }
 		},
 		{
 			"image": {
 			  "url": "/images/travis.jpg",
-			  "name": "Travis",
-			  "prev": "2",
-			  "id": "3",
-			  "next": "4"
+			  "name": "Travis"
 			}
 		},
 		{
 			"image": {
 			  "url": "/images/max.png",
-			  "name": "Max",
-			  "prev": "3",
-			  "id": "4",
-			  "next": "5"		
+			  "name": "Max"	
 			}
 		},
 		{
 			"image": {
 			  "url": "/images/bowman.png",
-			  "name": "Bowman",
-			  "prev": "4",
-			  "id": "5",
-			  "next": "6"
+			  "name": "Bowman"
 			}
 		},
 		{
 			"image": {
 			  "url": "/images/breed.jpg",
-			  "name": "BReed",
-			  "prev": "5",
-			  "id": "6",
-			  "next": "7"
+			  "name": "BReed"
 			}
 		},
 		{
 			"image": {
 			  "url": "/images/duval.jpg",
-			  "name": "Duval",
-			  "prev": "6",
-			  "id": "7",
-			  "next": "8"
+			  "name": "Duval"
 			}
 		},
 		{
 			"image": {
 			  "url": "/images/pranjal.jpg",
-			  "name": "Pranjal - Captain Falcon",
-			  "prev": "7",
-			  "id": "8",
-			  "next": "1"
+			  "name": "Pranjal - Captain Falcon"
 			}
 		}
 	  ]
