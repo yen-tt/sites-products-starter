@@ -1,0 +1,20 @@
+{
+	"id": "top-8",
+	"brand": "Nike",
+	"photoGallery": [
+		{
+			"image": {
+				"url": "http://a.mktgcdn.com/p/Vatwyz7e0RV7COzQ5fVj6wp5e9usr7cSDUVQM2H0n9w/1728x2160.jpg"
+			}
+		}
+	],
+	"price": {
+		"currencyCode": "USD",
+		"value": "160"
+	},
+	"color": "Hasta/Hyper Royal",
+	"uid": 24930843,
+	"richTextDescription": "The Select Series from Nike and the NBA celebrates the MVPs and Rookies of the Year from 2011-2020. The design is inspired by the '90s golden era of basketball, from Nike apparel patterns and posters to T-shirt graphics. This product is made with 100% recycled polyester fibers.",
+	"name": "Giannis Antetokounmpo Select Series",
+	"slug": "top-8"
+}

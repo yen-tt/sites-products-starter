@@ -1,0 +1,20 @@
+{
+	"brand": "Nike",
+	"photoGallery": [
+		{
+			"image": {
+				"url": "http://a.mktgcdn.com/p/H95ofkva0BAo8tEJ9_jX9EPaPaexgafuoX2mC0o0xl8/1728x2160.jpg"
+			}
+		}
+	],
+	"id": "top-14",
+	"richTextDescription": "The Select Series from Nike and the NBA celebrates the MVPs and Rookies of the Year from 2011-2020. The design is inspired by the '90s golden era of basketball, from Nike apparel patterns and posters to T-shirt graphics. This product is made with 100% recycled polyester fibers.",
+	"name": "LeBron James Select Series",
+	"slug": "top-14",
+	"price": {
+		"currencyCode": "USD",
+		"value": "160"
+	},
+	"color": "Field Purple/Amarillo",
+	"uid": 24930847
+}

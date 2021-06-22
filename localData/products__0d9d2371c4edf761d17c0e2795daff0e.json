@@ -1,0 +1,25 @@
+{
+	"id": "bottom-5",
+	"brand": "Gucci",
+	"photoGallery": [
+		{
+			"image": {
+				"url": "http://a.mktgcdn.com/p/1-XNNCy8DSy1M2amr5a0IdALVGUeArBcc56R3oOXZI4/1365x1820.jpg"
+			}
+		},
+		{
+			"image": {
+				"url": "http://a.mktgcdn.com/p/Oozm6vIgy__pbW3LBFGsaCmzmxcRxJJ1piZVn-7al_g/560x747.jpg"
+			}
+		}
+	],
+	"uid": 24930850,
+	"richTextDescription": "Nicknamed 'The Fashion Gardener' for his vibrant botanical prints, Mr Ken Scott helped develop the floral motifs we now so readily associate with the '60s and '70s. Gucci's silk-crepe shorts showcase oversized daisies from the American designer's archive and are appliquéd with an emblem on the back.",
+	"name": "Ken Scott Wide-Leg Floral-Print Silk-Crepe Shorts",
+	"slug": "bottom-5",
+	"price": {
+		"currencyCode": "USD",
+		"value": "980"
+	},
+	"color": "Green"
+}

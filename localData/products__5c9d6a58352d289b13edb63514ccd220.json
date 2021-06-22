@@ -1,0 +1,20 @@
+{
+	"brand": "Nike",
+	"photoGallery": [
+		{
+			"image": {
+				"url": "http://a.mktgcdn.com/p/oEKjVmjp2XU-kKdMPyBq1uReJvXXwyQ277LRP0jDuLo/1728x2160.jpg"
+			}
+		}
+	],
+	"id": "top-10",
+	"richTextDescription": "The Icon Edition jersey represents the franchise's rich heritage and iconic identity, expressed through the team's bold primary color. The Authentic Nike NBA Icon Edition Jersey of the Los Angeles Lakers is designed to be lightweight and breathable. It's got a fit that's fine-tuned to let players move freely on the basketball court. This product is made with at least 75% recycled polyester.",
+	"name": "Anthony Davis (nba) Lakers Icon Edition 2020",
+	"slug": "top-10",
+	"price": {
+		"currencyCode": "USD",
+		"value": "200"
+	},
+	"color": "Amarillo",
+	"uid": 24930842
+}
