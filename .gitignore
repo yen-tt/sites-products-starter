@@ -5,3 +5,5 @@ assets/
 main.exe
 Users/
 localData/
+cli.exe
+sites-rendered-output/
