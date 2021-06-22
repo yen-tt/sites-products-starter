@@ -5,30 +5,6 @@
 	"secondary_color": "#B5C428",
     "photoGallery": [
 		{
-		  "image": {
-			"url": "/images/luc.png",
-			"name": "Luc"
-		  }
-		},
-		{
-		  "image": {
-			"url": "/images/gideon.jpg",
-			"name": "Gideon"
-		  }
-		},
-		{
-			"image": {
-			  "url": "/images/travis.jpg",
-			  "name": "Travis"
-			}
-		},
-		{
-			"image": {
-			  "url": "/images/max.png",
-			  "name": "Max"	
-			}
-		},
-		{
 			"image": {
 			  "url": "/images/bowman.png",
 			  "name": "Bowman"
@@ -50,6 +26,30 @@
 			"image": {
 			  "url": "/images/pranjal.jpg",
 			  "name": "Pranjal - Captain Falcon"
+			}
+		},
+		{
+		  "image": {
+			"url": "/images/luc.png",
+			"name": "Luc"
+		  }
+		},
+		{
+		  "image": {
+			"url": "/images/gideon.jpg",
+			"name": "Gideon"
+		  }
+		},
+		{
+			"image": {
+			  "url": "/images/travis.jpg",
+			  "name": "Travis"
+			}
+		},
+		{
+			"image": {
+			  "url": "/images/max.png",
+			  "name": "Max"	
 			}
 		}
 	  ]
